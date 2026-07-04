@@ -28,5 +28,4 @@ object TurretConstants {
 
     const val MIN_ANGLE = 0.0
     const val MAX_ANGLE = 2.0 * PI
-
 }

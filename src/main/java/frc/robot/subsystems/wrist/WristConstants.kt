@@ -27,5 +27,4 @@ object WristConstants {
 
     const val MIN_ANGLE = 1.0
     const val MAX_ANGLE = 2.0
-
 }

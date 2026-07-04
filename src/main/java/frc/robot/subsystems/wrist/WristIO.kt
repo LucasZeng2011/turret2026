@@ -28,5 +28,5 @@ interface WristIO {
 
     fun setWristAngle(angle: Double) {}
 
-    fun stopWrist() {} //cut all voltage
+    fun stopWrist() {} // cut all voltage
 }

@@ -1,6 +1,6 @@
 package frc.robot
 
-class Bindings (
+class Bindings(
     val robotContainer: RobotContainer
 ) {
     val driver = robotContainer.driverController
@@ -11,22 +11,22 @@ class Bindings (
         driver
             .a()
             .onTrue(
-                actions.runCommandOne(1.0)
+                actions.turretForward(),
             )
         driver
             .b()
             .onTrue(
-                actions.runCommandOne(0.0)
+                actions.turretBackward(),
             )
         driver
             .x()
             .onTrue(
-                actions.runCommandTwo(1.0, 0.0)
+                actions.targetUp(),
             )
         driver
             .y()
             .onTrue(
-                actions.runCommandTwo(1.0, 2.0)
+                actions.targetDown(),
             )
     }
 }

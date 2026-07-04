@@ -356,4 +356,3 @@ object Constants {
 // const val MT2_ANGULAR_STD_DEV_FACTOR: Double = 0.5 // no rotation data available
     }
 }
-
